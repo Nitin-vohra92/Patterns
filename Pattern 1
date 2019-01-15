@@ -1,5 +1,6 @@
 
-/* Printing pattern for N
+/*
+Printing pattern for N
 Here, N=4
     1
    23
@@ -11,7 +12,8 @@ Here, N=4
 using namespace std;
 
 
-int main(){
+int main()
+{
 
       int n,i=1;
       cin>>n;
@@ -31,9 +33,9 @@ int main(){
         for(count=1;count<=i;count=count+1)
     	{
             cout<<val;
-      	val=val+1;
+      	    val=val+1;
 
-       }
+        }
   cout<<endl;
-}
+    }
 }

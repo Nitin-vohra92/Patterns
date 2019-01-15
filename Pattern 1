@@ -5,10 +5,12 @@ here, N=3
     2 3 2
   3 4 5 4 3 
 */
+
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     int n;
 int i=1;
 
@@ -16,10 +18,10 @@ int i=1;
 	while(i<=n)
 
     {
-    //initialising count as 1 
-      int count=1;
+  
+  int count=1;
  
-    // printing spaces
+    // printing spaces in the pattern first
       while(count<=n-i)
       {
         cout<<" ";
@@ -28,7 +30,7 @@ int i=1;
       }
       count=1;
       int val=i;
-//  printing half pattern 
+//  printing the first half pattern 
 /*
       1
     2 3

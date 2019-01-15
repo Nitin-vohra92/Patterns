@@ -1,4 +1,11 @@
 
+/* Printing pattern for N
+Here, N=4
+    1
+   23
+  345
+ 4567  
+ */
 
 #include<iostream>
 using namespace std;
@@ -11,7 +18,7 @@ int main(){
 
    	for(i=1;i<=n;i++)
     {
-
+    // printing spaces in the pattern
       int count,val=i;
         for(count=1;count<=n-i;count=count+1)
         {
@@ -19,12 +26,14 @@ int main(){
         }
 
 
-
+    // printing the numbers in the pattern
+    
         for(count=1;count<=i;count=count+1)
-    	{cout<<val;
+    	{
+            cout<<val;
       	val=val+1;
 
-          }
+       }
   cout<<endl;
 }
 }

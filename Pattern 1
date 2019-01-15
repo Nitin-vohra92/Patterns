@@ -9,8 +9,10 @@ int i=1;
 	while(i<=n)
 
     {
+    //initialising count as 1 
       int count=1;
-
+ 
+    // printing spaces
       while(count<=n-i)
       {
         cout<<" ";

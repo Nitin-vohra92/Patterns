@@ -21,7 +21,14 @@ int i=1;
       }
       count=1;
       int val=i;
+//  printing half pattern 
+/*
+      1
+    2 3
+  3 4 5
 
+
+*/
     while(count<=i)
     {
       cout<<val;
@@ -30,6 +37,15 @@ int i=1;
     }
     count=1;
       val=2*(i-1);
+      
+      // printing the next half pattern
+      /*
+      
+        1
+      2 3 2
+    3 4 5 4 3
+     
+     */
       while(count<=i-1)
       {
         cout<<val;
@@ -39,5 +55,6 @@ int i=1;
       i=i+1;
       cout<<endl;
     }
+    return 0;
 }
 

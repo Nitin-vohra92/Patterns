@@ -18,8 +18,10 @@ int main()
       int n,i=1;
       cin>>n;
 
+    // for loop for row wise transversal 
    	for(i=1;i<=n;i++)
     {
+    // for loops for column wise transversal
     // printing spaces in the pattern
       int count,val=i;
         for(count=1;count<=n-i;count=count+1)

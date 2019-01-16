@@ -19,13 +19,14 @@ int main(){
  while(i<=n)
     {
         int count=1;
-
+      // printing spaces
         while(count<=n-i)
             {
             cout<<" ";
          count=count+1;
          }
          count=1;
+      // printing stars
          while(count<=2*i-1)
          {
              cout<<"*";

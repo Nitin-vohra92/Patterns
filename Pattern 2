@@ -16,8 +16,10 @@ int main(){
  int n,i=1;
  cin>>n;
 
+// while loop for row wise trasversal
  while(i<=n)
     {
+    // while loops for colomn wise transversals
         int count=1;
       // printing spaces
         while(count<=n-i)

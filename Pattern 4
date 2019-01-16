@@ -10,15 +10,16 @@
 using namespace std;
 
 int main() {
-	// Write your code here
 int n,i=1;
 cin>>n;
 
+// while loop for row wise transversal
 while(i<=n)
 {
 
     int count=1;
     int value=1;
+// while loop for column wise transversal
     while(count<=(n+1)-i)
     {
         cout<<value;

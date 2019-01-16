@@ -1,3 +1,13 @@
+/*
+Print the following pattern for N
+
+Here, N=4
+    *
+   *** 
+  *****
+ *******
+ */
+
 #include<iostream>
 using namespace std;
 

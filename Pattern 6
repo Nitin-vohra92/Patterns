@@ -40,6 +40,17 @@ int main(){
       count=count+1;
     }
   }
+  /* after this if loop
+  
+  
+  * 
+   * * 
+    * * * 
+     * * * * 
+     
+     
+  */
+  // for second part of arrow
  if(i>(n+1)/2)
  {
    count=1;
@@ -50,6 +61,7 @@ int main(){
      count=count+1;
    }
    count=1;
+   // printing stars
    while(count<=n+1-i)
    {
      cout<<"*"<<" ";
@@ -60,6 +72,7 @@ int main(){
      i=i+1;
    cout<<endl;
   }
+  //complete arrow will be formed after the else condition
 
 }
 

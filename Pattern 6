@@ -1,0 +1,61 @@
+/*
+Print the following pattern for the given number of rows.
+Assume N is always odd.
+Note : There is space after every star.
+Pattern for N = 7
+*
+ * *
+   * * *
+     * * * *
+   * * *
+ * *
+*
+
+
+*/
+#include<iostream>
+using namespace std;
+
+
+int main(){
+  int i,n,count;
+  i=1;
+  cin>>n;
+  while(i<=n)
+  {
+    if(i<=(n+1)/2)
+  {
+    count=1;
+    while(count<=i-1)
+    {  cout<<" ";
+    count=count+1;
+    }    
+    count=1;
+    while(count<=i)
+    {
+      cout<<"*"<<" ";
+      count=count+1;
+    }
+  }
+ if(i>(n+1)/2)
+ {
+   count=1;
+   while(count<=n-i)
+   {
+     cout<<" ";
+     count=count+1;
+   }
+   count=1;
+   while(count<=n+1-i)
+   {
+     cout<<"*"<<" ";
+     count=count+1;
+   }
+  
+ }
+     i=i+1;
+   cout<<endl;
+  }
+
+}
+

@@ -15,8 +15,8 @@ Here N=5,
 int main()
 {
 
-      int i=1,n,val,count;
-  cin>>n;
+   int i=1,n,val,count;
+   cin>>n;
   // While loop for row wise transversal
   while(i<=n)
   {
@@ -26,7 +26,7 @@ int main()
     while(count<=i-1)
     {
       cout<<val;
-        val=val+1;
+       val=val+1;
       count=count+1;
       
     }

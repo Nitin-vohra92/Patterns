@@ -1,5 +1,5 @@
 /*
-Print the following pattern for the given number of rows.
+Print the following arrow pattern
 Assume N is always odd.
 Note : There is space after every star.
 Pattern for N = 7

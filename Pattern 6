@@ -21,16 +21,19 @@ int main(){
   int i,n,count;
   i=1;
   cin>>n;
+  // while loop for row wise transversal
   while(i<=n)
   {
     if(i<=(n+1)/2)
   {
     count=1;
+    // printing spaces
     while(count<=i-1)
     {  cout<<" ";
     count=count+1;
     }    
     count=1;
+    // printing stars
     while(count<=i)
     {
       cout<<"*"<<" ";
@@ -40,6 +43,7 @@ int main(){
  if(i>(n+1)/2)
  {
    count=1;
+   // printing spaces
    while(count<=n-i)
    {
      cout<<" ";

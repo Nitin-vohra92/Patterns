@@ -1,8 +1,18 @@
+/*
+Print pattern for N,
+Here N=5
+
+	1
+	11
+	121
+	1221
+	12221
+*/
+
 #include<iostream>
 using namespace std;
 
 int main() {
-	// Write your code here
 int n,i=2;
 cin>>n;
 if(n>=1)

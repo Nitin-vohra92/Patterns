@@ -12,7 +12,8 @@ Here, N=4
 using namespace std;
 
 
-int main(){
+int main()
+{
  int n,i=1;
  cin>>n;
 
@@ -23,9 +24,9 @@ int main(){
         int count=1;
       // printing spaces
         while(count<=n-i)
-            {
+         {
             cout<<" ";
-         count=count+1;
+            count=count+1;
          }
          count=1;
       // printing stars
@@ -36,5 +37,6 @@ int main(){
          }
 
     i=i+1;
-    cout<<endl;}
+    cout<<endl;
+    }
 }

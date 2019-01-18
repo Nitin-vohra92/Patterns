@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+
+      int n,i=1;
+      cin>>n;
+
+   	for(i=1;i<=n;i++)
+    {
+      int count=1,val=i;
+        for(count=1;count<=i;count=count+1)
+    	{cout<<val;
+      	val=val+1;
+
+          }
+  cout<<endl;
+}
+}
+
+
+

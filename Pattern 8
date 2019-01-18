@@ -32,7 +32,10 @@ while(i<=n)
         {
             cout<<i-1;
         }
-        else{cout<<0;}
+        else
+	{
+	cout<<0;
+	}
 
 count=count+1;
 

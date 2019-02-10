@@ -7,8 +7,10 @@ Pattern for N = 4
 0
 
 */
+
 void printPatt(int n)
-{int i,j;
+{
+int i,j;
  cin>>n;
   for(i=1;i<=n;i++)
   {
@@ -31,5 +33,4 @@ void printPatt(int n)
    cout<<endl;
   }
   
-    //write your code here
 }

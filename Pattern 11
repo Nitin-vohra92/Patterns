@@ -4,8 +4,9 @@ Pattern for N = 3
  A
  BB
  CCC
- 
+
  */
+ 
 #include<iostream>
 using namespace std;
 

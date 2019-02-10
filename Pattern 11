@@ -1,3 +1,11 @@
+/*
+
+Pattern for N = 3
+ A
+ BB
+ CCC
+ 
+ */
 #include<iostream>
 using namespace std;
 
@@ -12,21 +20,14 @@ int main(){
     for(j=1;j<=i;j++)
     {
       cout<<value;
-      
-      
-      
     }
    value++;
   
-  cout<<endl;}
+  cout<<endl;
+  }
    
   }
 
 
     
-    /*  Read input as specified in the question.
-     * Print output as specified in the question.
-     */
     
-
-

@@ -24,11 +24,11 @@ int main()
     // for loops for column wise transversal
     // printing spaces in the pattern
       int count,val=i;
+      
         for(count=1;count<=n-i;count=count+1)
         {
             cout<<" ";
         }
-
 
     // printing the numbers in the pattern
     
@@ -36,7 +36,6 @@ int main()
     	{
             cout<<val;
       	    val=val+1;
-
         }
   cout<<endl;
     }

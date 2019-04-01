@@ -18,11 +18,13 @@ int main()
    int i=1,n,val,count;
    cin>>n;
   // While loop for row wise transversal
+  
   while(i<=n)
   {
     val=n+1-i;
     count=1;
     // INNER WHILE LOOPS FOR COLUMN WISE TRANSVERSAL
+    
     while(count<=i-1)
     {
       cout<<val;
@@ -31,6 +33,7 @@ int main()
       
     }
     count=1;
+    
     while(count<=n+1-i)
     {
       cout<<n;

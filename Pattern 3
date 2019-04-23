@@ -16,9 +16,7 @@ int main()
 
 	cin>>n;
 	while(i<=n)
-
     {
-  
   int count=1;
  
     // printing spaces in the pattern first

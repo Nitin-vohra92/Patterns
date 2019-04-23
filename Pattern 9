@@ -1,10 +1,12 @@
 /* 
+
 Print following pattern for N,
 Here N=4
 1
 11
 111
 1111
+
 */
 
 

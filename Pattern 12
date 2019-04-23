@@ -10,7 +10,7 @@ Pattern for N = 4
 
 void printPatt(int n)
 {
-int i,j;
+ int i,j;
  cin>>n;
   for(i=1;i<=n;i++)
   {

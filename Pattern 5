@@ -21,6 +21,7 @@ if(n>=1)
     cout<<"1"<<endl;
 }
 // while loop for row wise transversal
+
 while(i<=n)
 {
 

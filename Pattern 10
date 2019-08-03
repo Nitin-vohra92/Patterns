@@ -17,6 +17,8 @@ int main()
  cin>>n;
 
 
+
+
 // while loop for row wise trasversal
  while(i<=n)
     {

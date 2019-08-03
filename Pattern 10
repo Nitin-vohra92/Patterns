@@ -19,7 +19,9 @@ int main()
 
 
 
-// while loop for row wise trasversal
+// while loop for row wise 
+
+
  while(i<=n)
     {
     // while loops for colomn wise transversals

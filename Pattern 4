@@ -6,12 +6,14 @@
 	12
 	1
 */
+
 #include<iostream>
 using namespace std;
 
 int main() 
 {
-	int n,i=1;
+	int n;
+	int i=1;
 	cin>>n;
 	
 // while loop for row wise transversal
@@ -20,15 +22,16 @@ while(i<=n)
 
     int count=1;
     int value=1;
+    
 // while loop for column wise transversal
-    while(count<=(n+1)-i)
+    while(count <= (n+1)-i)
     {
         cout<<value;
-        value=value+1;
-        count=count+1;
+        value++;
+        count++;
     }
 
- i=i+1;
+ i++;
  cout<<endl;
 }
 

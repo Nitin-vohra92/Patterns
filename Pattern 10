@@ -1,4 +1,6 @@
 /*
+
+
 Print the following pattern for N
 
 Here, N=4
@@ -6,6 +8,8 @@ Here, N=4
    *** 
   *****
  *******
+ 
+ 
  */
 
 #include<iostream>

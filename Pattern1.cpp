@@ -39,6 +39,7 @@ int main()
             cout<<val;
       	    val=val+1;
         }
+        
   cout<<endl;
     }
 }
